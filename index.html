@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrousels-responsive-and-traslate</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" media="screen and (max-device-width:1068px)" href="css/portatil.css">
+    <link rel="stylesheet" media="screen and (max-device-width:700px)" href="css/tablet.css">
+    <link rel="stylesheet" media="screen and (max-device-width:420px)" href="css/mobile.css">
+</head>
+
+<body>
+    <!-- Inicio home -->
+    <section id="home">
+        <div class="slideshow-container">
+            <!-- Inicio contenedores slider -->
+            <div class="mySlides fade">
+                <img src="imagenes/bg-comunicaciones.png">
+                <div class="container-text-bg-flechas">
+                    <h1 class="titulo-carrousel">Comunicaciones</h1>
+                    <p class="text-carrousel">Estudios de propagacion y cobertura, ingenieria de transmision, estudios de interferencia...</p>
+                    <a href="#">
+                        <button class="button-ver-mas">Ver mas</button>
+                    </a>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <img src="imagenes/bg-integraciones.png">
+                <div class="container-text-bg-flechas">
+                    <h1 class="titulo-carrousel">Intergrácion de sistemas</h1>
+                    <p class="text-carrousel">Administración de Sistemas, suministrando logística parcial o total de actividades como: operación de equipos y sistemas, programación de mantenimiento,etc.</p>
+                    <a href="#">
+                        <button class="button-ver-mas">Ver mas</button>
+                    </a>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <img src="imagenes/bg-soporte.png" class="img-soporte">
+                <div class="container-text-bg-flechas">
+                    <h1 class="titulo-carrousel">Soporte Técnico</h1>
+                    <p class="text-carrousel">Entrenamiento y mantenimiento local, soporte tecnico integral a demanda, ensamble de gabinetes..</p>
+                    <a href="#">
+                        <button class="button-ver-mas">Ver mas</button>
+                    </a>
+                </div>
+            </div>
+            <!-- FIn contenedores slider -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <!-- bg flechas sperpuesto con posicion absoluto y height quemado-->
+        <div class="bg-flechas">
+
+        </div>
+    </section>
+    <!-- Fin home -->
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

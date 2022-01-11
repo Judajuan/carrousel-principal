@@ -1,0 +1,28 @@
+.mySlides img {
+    height: 40em;
+}
+
+.text-carrousel {
+    font-size: 1em;
+}
+
+.titulo-carrousel {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+
+.container-text-bg-flechas {
+    top: 5rem;
+    width: 35rem;
+}
+
+.button-ver-mas {
+    font-size: 7px;
+    padding: 7px 15px;
+}
+
+.slideshow-container .prev,
+.slideshow-container .next {
+    padding: 2rem 1.4rem;
+    font-size: 10px;
+}

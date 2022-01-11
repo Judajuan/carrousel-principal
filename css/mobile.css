@@ -1,0 +1,18 @@
+.container-text-bg-flechas {
+    width: auto;
+    padding: 0;
+}
+
+.mySlides img {
+    height: 28em;
+}
+
+.container-text-bg-flechas {
+    width: 40%;
+    /* left: 4rem; */
+    top: 2rem;
+}
+
+.text-carrousel {
+    margin-bottom: 1.5rem;
+}
