@@ -1,2 +1,2 @@
-# encuesta-animada
-Repositorio guarda codigo de encuesta animada con juegos pirotecnicos y sonido animado, sweet alert y bootstrap
+# carrpusel-image-principal
+Repositorio guarda codigo para carrousel animado responsive .
